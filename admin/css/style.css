@@ -1,0 +1,361 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.center-div{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.heading{
+	width: 100%;
+	line-height: 80px;
+	font-size: 1.4rem;
+	background: -webkit-linear-gradient(left, #0072ff, #8811c5);
+	font-family: 'Staatliches', cursive;
+}
+
+form{
+	width: 400px;
+
+}
+
+.style {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 740px) {
+    .style {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+    }
+}
+
+.foo ul li {
+    list-style: none;
+    margin-right: 45px;
+}
+
+.foo h3 {
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 3px;
+}
+
+.foo {
+    color: black;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.foo .socia i {
+    transition: width 2s;
+}
+
+.foo .socia i:hover {
+    transform: scale(1.2);
+}
+
+.foo .socia a {
+    padding: 6px;
+    color: black;
+    font-size: 27px;
+}
+
+.foo .socia a:hover {
+    color: #7f2221;
+}
+
+.menu ul li {
+    transition: width 2s;
+}
+
+.menu ul li:hover {
+    transform: scale(1.12);
+}
+
+.menu ul li a {
+    color: black;
+    /* transition: width 2s; */
+}
+
+.menu ul li a:hover {
+    text-decoration: none;
+    color: #7f2221;
+    /* transform: scale(1.2); */
+}
+
+.foot {
+    color: white;
+}
+
+.foot h6 a {
+    color: #00ebff;
+}
+
+.foot h6 a:hover {
+    color: #3dff00;
+    text-decoration: none;
+}
+
+.icon>.social>li {
+    /* border-radius: 50%; */
+    display: inline-block;
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    font-size: 19px;
+    line-height: 35px;
+    margin-right: 10px;
+    margin-top: 8px;
+    /* background: white; */
+}
+
+
+/* .icon>.social>li>a {
+    color: black;
+    margin-left: 13px;
+} */
+
+.sociallogo {
+    color: black;
+    font-size: 30px;
+    border-radius: 50%;
+    background: white;
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+}
+
+.sociallogo:hover {
+    background: gray;
+    color: white;
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+}
+
+
+/* .icon>.social>li>a:hover {
+    color: white;
+} */
+
+
+/* .icon>.social>li:hover { */
+
+
+/* background: black; */
+
+
+/* border-radius: 50%; */
+
+
+/* display: inline-block;
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    font-size: 19px;
+    line-height: 35px;
+    margin-right: 10px;
+    margin-top: 8px; */
+
+
+/* } */
+
+.navbar>.navbar-collapse>.navbar-nav>.nav-item>.nav-link {
+    color: black;
+    transition: width (2px);
+    padding: 0px 25px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar>.navbar-collapse>.navbar-nav>.nav-item>.nav-link:hover {
+    color: #7f2221;
+    transform: scale(1.1);
+}
+
+.navbar .dropdown-menu div[class*="col"] {
+    margin-bottom: 1rem;
+}
+
+.navbar .dropdown-menu {
+    border: none;
+    /* background-color: #f8f9fa!important; */
+    background: linear-gradient(#c4e9fb6b, #cbe4f16b, rgb(250, 246, 246));
+    /* background: linear-gradient(#eaf4f96b, #d0e4ee6b, rgb(250, 246, 246)); */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('./img/banner/menu001.jpg'); */
+    /* color: white; */
+}
+
+
+/*  makes the dropdown full width  */
+
+.navbar .dropdown {
+    position: static;
+}
+
+.navbar .dropdown-menu {
+    font-weight: 700;
+    width: 100%;
+    left: 0;
+    right: 0;
+    /*  height of nav-item  */
+    top: 70px;
+}
+
+.navbar .dropdown-menu .nav .nav-item .nav-link {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar .dropdown-menu .nav .nav-item .nav-link:hover {
+    color: #7f2221;
+}
+
+
+/* shows the dropdown menu on hover */
+
+.navbar .dropdown:hover .dropdown-menu,
+.navbar .dropdown .dropdown-menu:hover {
+    display: block!important;
+}
+
+.navbar .dropdown-menu {
+    border: 1px solid rgba(0, 0, 0, .15);
+    background-color: #fff;
+}
+
+
+/* adds some margin below the link sets  */
+
+.card {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width (2px)
+}
+
+.card:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.003);
+}
+
+.card1 {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card1:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*-- contact --*/
+
+.w3agile_contact_left {
+    /*background:url(../images/c12.jpg) no-repeat 0px 0px;*/
+    background-size: cover;
+    padding: 0;
+}
+
+.w3agile_contact_left {
+    padding: 0px 70px 50px 40px;
+}
+
+.w3agile_contact_left h3 {
+    color: #000;
+}
+
+.w3agile_contact_right h4 {
+    margin: 35px 0 50px 0;
+    color: #e6e6e6;
+}
+
+.con-rt-content {
+    background: rgba(139, 195, 74, 0.58);
+    padding: 72.5px;
+}
+
+.w3agile_contact_left input[type="text"],
+.w3agile_contact_left input[type="email"],
+.w3agile_contact_left textarea {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+    background: none;
+    margin-bottom: 15px;
+}
+
+.w3agile_contact_left input[type="submit"] {
+    margin: 3em 0 0;
+}
+
+.w3agile_contact_right h3 a {
+    display: inline-block;
+    color: #fff;
+}
+
+.w3agile_contact_right ul li {
+    display: inline;
+    color: #fff;
+    font-size: 16px;
+}
+
+.w3agile_contact_right ul li .glyphicon {
+    margin-right: 10px;
+}
+
+.w3agile_contact_right ul li a {
+    color: #fff;
+}
+
+.w3agile_contact_right ul.phone {
+    margin: 30px 0;
+}
+
+.agileits_social_icons {
+    text-align: center;
+}
+
+.agileits_social_icons .fa {
+    color: #fff;
+    padding: 10px;
+    font-size: 25px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.w3agile_contact_left input[type="submit"] {
+    outline: none;
+    border: 2px solid #f69323;
+    background: #f69323;
+    color: #fff;
+    font-size: 1.1em;
+    padding: 8px 25px;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+}
+
+.w3agile_contact_right iframe {
+    width: 100%;
+    min-height: 423px;
+    border: none;
+}
+
+.w3agile_contact_right {
+    padding: 0;
+}
+
+
+/*-- //contact --*/
