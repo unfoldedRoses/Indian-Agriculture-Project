@@ -1,5 +1,5 @@
 # Indian-Agriculture-Project
-This is A Indian Agritural Project Where You Find Automatic Fertilizers with respect to corps , all state wise corps are listed, A shopping Cart and Tons Of Features 
+This is A Indian Agritural Project Where You Find Automated Fertilizers with respect to corps , all state wise corps are listed, A shopping Cart and Tons Of Features 
 
 
 
